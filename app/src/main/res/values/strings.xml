@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Mon Classeur Bac</string>
+    <string name="app_tagline">Organiseur de cours et révision pour le Baccalauréat</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_binder">Mon classeur</string>
+    <string name="nav_ai">Assistant IA</string>
+    <string name="nav_favorites">Favoris</string>
+    <string name="nav_settings">Paramètres</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai_title">Assistant Bac IA</string>
+    <string name="ai_subtitle">Ton tuteur intelligent pour le Baccalauréat tunisien</string>
+    <string name="ai_placeholder">Pose ta question (cours, exercice, formule, méthode)…</string>
+    <string name="ai_generate_sheet_btn">Générer une fiche de révision</string>
+    <string name="ai_sheet_type_summary">Fiche de synthèse de cours</string>
+    <string name="ai_sheet_type_formulas">Fiche de formules essentielles</string>
+    <string name="ai_sheet_type_method">Méthodologie &amp; Conseils Bac</string>
+    <string name="ai_sheet_type_quiz">Questions d\'entraînement / Quiz</string>
+    <string name="ai_save_as_pdf">Enregistrer en PDF</string>
+    <string name="ai_save_as_image">Enregistrer en Image</string>
+    <string name="ai_save_success_pdf">Fiche enregistrée en PDF dans votre classeur !</string>
+    <string name="ai_save_success_image">Fiche enregistrée en Image dans votre classeur !</string>
+    <string name="ai_prompt_ideas">Idées &amp; Suggestions</string>
+    <string name="ai_prompt_suggestion_1">Résumer le Dipôle RC avec les équations différentielles</string>
+    <string name="ai_prompt_suggestion_2">Fiche de révision : Acides, bases et pH</string>
+    <string name="ai_prompt_suggestion_3">Méthode pour l\'étude de fonctions en Mathématiques</string>
+    <string name="ai_prompt_suggestion_4">Schéma explicatif de la méiose et fécondation (SVT)</string>
+    <string name="ai_missing_key_warning">Pour activer l\'Assistant IA, configurez votre clé Gemini dans le panneau Secrets d\'AI Studio.</string>
+    <string name="ai_generating">L\'assistant prépare la réponse…</string>
+    <string name="ai_clear_chat">Effacer la conversation</string>
+    
+    <!-- Actions -->
+    <string name="action_add">Ajouter</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_edit">Modifier</string>
+    <string name="action_rename">Renommer</string>
+    <string name="action_move">Déplacer</string>
+    <string name="action_share">Partager</string>
+    <string name="action_export">Exporter</string>
+    <string name="action_import">Importer</string>
+    <string name="action_search">Rechercher…</string>
+    <string name="action_filter">Filtrer</string>
+    <string name="action_sort">Trier</string>
+    <string name="action_confirm">Confirmer</string>
+    <string name="action_close">Fermer</string>
+    <string name="action_skip">Passer</string>
+    <string name="action_start">Commencer</string>
+    <string name="action_restore">Restaurer</string>
+    <string name="action_backup">Sauvegarder</string>
+    <string name="action_reset">Réinitialiser</string>
+    <string name="action_clear_cache">Vider le cache</string>
+    
+    <!-- Dashboard / Home -->
+    <string name="home_greeting">Bonjour, futur bachelier !</string>
+    <string name="home_subtitle">Prépare ton Bac sereinement avec tes cours organisés.</string>
+    <string name="home_stats_documents">Documents</string>
+    <string name="home_stats_subjects">Matières</string>
+    <string name="home_stats_mastered">Maitrisés</string>
+    <string name="home_stats_progress">Progression globale</string>
+    <string name="home_quick_actions">Actions rapides</string>
+    <string name="home_action_new_subject">Nouvelle matière</string>
+    <string name="home_action_new_chapter">Nouveau chapitre</string>
+    <string name="home_action_import_doc">Importer document</string>
+    <string name="home_action_camera_scan">Scanner / Photo</string>
+    <string name="home_recent_docs">Documents récents</string>
+    <string name="home_pinned_subjects">Matières épinglées</string>
+    <string name="home_revision_progress">Suivi des révisions</string>
+    <string name="home_empty_title">Votre classeur est vide</string>
+    <string name="home_empty_desc">Commencez par ajouter vos matières du Bac ou initialisez les matières recommandées.</string>
+    <string name="home_btn_init_bac">Créer les matières du Bac Sciences</string>
+    
+    <!-- Binder & Subjects -->
+    <string name="binder_title">Mon Classeur Bac</string>
+    <string name="binder_search_hint">Rechercher une matière ou un dossier…</string>
+    <string name="binder_chapters_count">%d chapitres</string>
+    <string name="binder_documents_count">%d documents</string>
+    <string name="binder_add_subject">Ajouter une matière</string>
+    <string name="binder_add_folder">Nouveau dossier</string>
+    <string name="binder_view_grid">Grille</string>
+    <string name="binder_view_list">Liste</string>
+    <string name="binder_sort_name">Nom (A-Z)</string>
+    <string name="binder_sort_updated">Dernière modification</string>
+    <string name="binder_sort_count">Nombre de documents</string>
+    <string name="binder_delete_subject_title">Supprimer la matière ?</string>
+    <string name="binder_delete_subject_msg">Voulez-vous supprimer cette matière et tous ses chapitres et documents ?</string>
+    <string name="binder_delete_cascade">Supprimer définitivement le contenu</string>
+    
+    <!-- Subject & Chapter Details -->
+    <string name="subject_chapters">Chapitres</string>
+    <string name="subject_loose_docs">Documents de la matière</string>
+    <string name="chapter_add">Ajouter un chapitre</string>
+    <string name="chapter_status">Statut de révision</string>
+    <string name="chapter_status_not_started">Non commencé</string>
+    <string name="chapter_status_in_progress">En cours d\'apprentissage</string>
+    <string name="chapter_status_completed">Terminé / Révisé</string>
+    <string name="chapter_empty">Aucun document dans ce chapitre</string>
+    <string name="chapter_empty_action">Ajoutez un résumé, une série ou un examen</string>
+    
+    <!-- Forms -->
+    <string name="form_subject_name">Nom de la matière</string>
+    <string name="form_subject_desc">Description (optionnelle)</string>
+    <string name="form_subject_icon">Choisir une icône</string>
+    <string name="form_subject_color">Couleur</string>
+    <string name="form_subject_pin">Épingler en haut</string>
+    <string name="form_chapter_name">Nom du chapitre</string>
+    <string name="form_chapter_desc">Objectifs / Description</string>
+    <string name="form_chapter_parent_subject">Matière parente</string>
+    <string name="form_error_empty_name">Le nom ne peut pas être vide</string>
+    <string name="form_error_duplicate_subject">Une matière portant ce nom existe déjà</string>
+    
+    <!-- Import & Scanner -->
+    <string name="import_title">Importer des documents</string>
+    <string name="import_pdf_title">Document PDF</string>
+    <string name="import_pdf_subtitle">Cours, résumés, séries d\'exercices, examens</string>
+    <string name="import_image_title">Image / Fiche scannée</string>
+    <string name="import_image_subtitle">Schémas, fiches manuscrites, formules</string>
+    <string name="import_camera_title">Prendre une photo</string>
+    <string name="import_camera_subtitle">Photographier une feuille de cours</string>
+    <string name="import_dest_subject">Matière de destination</string>
+    <string name="import_dest_chapter">Chapitre (optionnel)</string>
+    <string name="import_file_name">Titre du document</string>
+    <string name="import_progress">Importation et copie en cours…</string>
+    <string name="import_success">Document importé avec succès</string>
+    <string name="import_error_file">Impossible de lire le fichier sélectionné</string>
+    
+    <!-- Viewer -->
+    <string name="viewer_page_indicator">Page %1$d sur %2$d</string>
+    <string name="viewer_zoom_in">Zoom avant</string>
+    <string name="viewer_zoom_out">Zoom arrière</string>
+    <string name="viewer_fit_width">Ajuster largeur</string>
+    <string name="viewer_rotate">Pivoter</string>
+    <string name="viewer_fullscreen">Plein écran</string>
+    <string name="viewer_error_render">Impossible de charger le document</string>
+    
+    <!-- Revision Status -->
+    <string name="status_todo">À réviser</string>
+    <string name="status_in_progress">En cours</string>
+    <string name="status_mastered">Maîtrisé</string>
+    
+    <!-- Favorites & Search -->
+    <string name="favorites_title">Mes Favoris</string>
+    <string name="favorites_empty">Aucun document favori pour l\'instant</string>
+    <string name="favorites_empty_hint">Touchez l\'étoile sur un document pour l\'ajouter ici et le retrouver rapidement.</string>
+    <string name="search_title">Recherche globale</string>
+    <string name="search_placeholder">Rechercher par titre, matière, chapitre…</string>
+    <string name="search_no_results">Aucun résultat trouvé pour « %s »</string>
+    <string name="search_filter_all">Tous</string>
+    <string name="search_filter_pdf">PDF</string>
+    <string name="search_filter_image">Images</string>
+    
+    <!-- Revision screen -->
+    <string name="progress_title">Suivi des Révisions</string>
+    <string name="progress_mastery_rate">Taux de maîtrise</string>
+    <string name="progress_reset_btn">Réinitialiser les statuts</string>
+    <string name="progress_reset_confirm">Voulez-vous remettre tous les documents à l\'état « À réviser » ? (Les fichiers ne seront pas supprimés)</string>
+    
+    <!-- Settings & Backup -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_section_general">Général</string>
+    <string name="settings_language">Langue de l\'application</string>
+    <string name="settings_lang_fr">Français</string>
+    <string name="settings_lang_ar">العربية (Arabe)</string>
+    <string name="settings_theme">Thème d\'affichage</string>
+    <string name="settings_theme_system">Système (Automatique)</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_dark">Sombre (Bleu Nuit)</string>
+    <string name="settings_storage">Espace de stockage utilisé</string>
+    <string name="settings_section_backup">Sauvegarde &amp; Restauration</string>
+    <string name="settings_backup_export">Exporter une sauvegarde complète</string>
+    <string name="settings_backup_export_desc">Génère une archive ZIP de tous vos cours et données</string>
+    <string name="settings_backup_restore">Restaurer une sauvegarde</string>
+    <string name="settings_backup_restore_desc">Importer une archive de sauvegarde précédente</string>
+    <string name="settings_about_title">À propos de Mon Classeur Bac</string>
+    <string name="settings_about_desc">Conçu spécialement pour les élèves du Baccalauréat tunisien. 100% local, confidentiel et hors-ligne.</string>
+    <string name="settings_version">Version 1.0.0 (Bac Tunisie)</string>
+    <string name="settings_reset_prefs">Réinitialiser les préférences</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Bienvenue dans Mon Classeur Bac</string>
+    <string name="onboarding_desc_1">Ton classeur scolaire numérique dédié au Baccalauréat tunisien. Garde tous tes cours, résumés et fiches sous la main.</string>
+    <string name="onboarding_title_2">Classement méthodique</string>
+    <string name="onboarding_desc_2">Organise tes documents par matière et par chapitre : Mathématiques, Physique-Chimie, SVT, Philosophie et plus.</string>
+    <string name="onboarding_title_3">Visionneuse &amp; Révisions</string>
+    <string name="onboarding_desc_3">Lis tes PDF et tes fiches scannées sans connexion. Marque ta progression : À réviser, En cours, Maîtrisé !</string>
+    <string name="onboarding_title_4">100% Hors-ligne &amp; Sauvegarde</string>
+    <string name="onboarding_desc_4">Aucun compte, aucun serveur. Vos documents restent sur votre téléphone avec option de sauvegarde ZIP.</string>
+    <string name="onboarding_choose_lang">Choisir la langue / اختر اللغة</string>
+</resources>

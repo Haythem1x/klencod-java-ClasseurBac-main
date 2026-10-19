@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">كناش البكالوريا</string>
+    <string name="app_tagline">منظم الدروس والوثائق ومتابعة مراجعة البكالوريا</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_binder">ملفاتي</string>
+    <string name="nav_ai">المساعد الذكي</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_settings">الإعدادات</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai_title">مساعد البكالوريا الذكي</string>
+    <string name="ai_subtitle">معلمك وموجهك الذكي لامتحان البكالوريا التونسية</string>
+    <string name="ai_placeholder">اطرح سؤالك (شرح درس، تمرين، قانون، منهجية)…</string>
+    <string name="ai_generate_sheet_btn">توليد بطاقة مراجعة</string>
+    <string name="ai_sheet_type_summary">بطاقة تلخيص للدرس</string>
+    <string name="ai_sheet_type_formulas">قوانين وقواعد أساسية</string>
+    <string name="ai_sheet_type_method">منهجية ونصائح البكالوريا</string>
+    <string name="ai_sheet_type_quiz">أسئلة تدريبية واختبار سريع</string>
+    <string name="ai_save_as_pdf">حفظ كملف PDF</string>
+    <string name="ai_save_as_image">حفظ كصورة ملخصة</string>
+    <string name="ai_save_success_pdf">تم حفظ البطاقة كملف PDF في ملفاتك بنجاح !</string>
+    <string name="ai_save_success_image">تم حفظ البطاقة كصورة في ملفاتك بنجاح !</string>
+    <string name="ai_prompt_ideas">أفكار واقتراحات سريعة</string>
+    <string name="ai_prompt_suggestion_1">ملخص درس ثنائي القطب RC والمعادلات التفاضلية</string>
+    <string name="ai_prompt_suggestion_2">بطاقة تلخيص: الأحماض والقواعد وحساب الـ pH</string>
+    <string name="ai_prompt_suggestion_3">منهجية دراسة الدوال والنهايات في الرياضيات</string>
+    <string name="ai_prompt_suggestion_4">مراحل تشكل الأمشاج والانقسام المنصف (علوم طبيعية)</string>
+    <string name="ai_missing_key_warning">لتفعيل المساعد، يرجى ضبط مفتاح Gemini في لوحة Secrets في AI Studio.</string>
+    <string name="ai_generating">جاري إعداد الإجابة والتلخيص…</string>
+    <string name="ai_clear_chat">مسح المحادثة</string>
+    
+    <!-- Actions -->
+    <string name="action_add">إضافة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_rename">إعادة التسمية</string>
+    <string name="action_move">نقل</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_export">تصدير</string>
+    <string name="action_import">استيراد</string>
+    <string name="action_search">بحث…</string>
+    <string name="action_filter">تصفية</string>
+    <string name="action_sort">ترتيب</string>
+    <string name="action_confirm">تأكيد</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_skip">تخطي</string>
+    <string name="action_start">البدء</string>
+    <string name="action_restore">استعادة</string>
+    <string name="action_backup">نسخ احتياطي</string>
+    <string name="action_reset">إعادة ضبط</string>
+    <string name="action_clear_cache">مسح الذاكرة المؤقتة</string>
+    
+    <!-- Dashboard / Home -->
+    <string name="home_greeting">مرحبًا بك يا تلميذ البكالوريا !</string>
+    <string name="home_subtitle">استعد لامتحان البكالوريا بنظام وثقة مع تنظيم كامل لوثائقك.</string>
+    <string name="home_stats_documents">الوثائق</string>
+    <string name="home_stats_subjects">المواد</string>
+    <string name="home_stats_mastered">تم إتقانها</string>
+    <string name="home_stats_progress">نسبة الإتقان العامة</string>
+    <string name="home_quick_actions">إجراءات سريعة</string>
+    <string name="home_action_new_subject">مادة جديدة</string>
+    <string name="home_action_new_chapter">محور / درس جديد</string>
+    <string name="home_action_import_doc">استيراد وثيقة</string>
+    <string name="home_action_camera_scan">تصوير ورقة / مسح</string>
+    <string name="home_recent_docs">آخر الوثائق المفتوحة</string>
+    <string name="home_pinned_subjects">المواد المثبتة</string>
+    <string name="home_revision_progress">متابعة المراجعة</string>
+    <string name="home_empty_title">كناشك فارغ حاليًا</string>
+    <string name="home_empty_desc">ابدأ بإضافة مواد البكالوريا الخاصة بك أو أنشئ المواد المقترحة تلقائيًا بنقرة واحدة.</string>
+    <string name="home_btn_init_bac">إنشاء مواد بكالوريا علوم تجريبية</string>
+    
+    <!-- Binder & Subjects -->
+    <string name="binder_title">كناش البكالوريا</string>
+    <string name="binder_search_hint">ابحث في المواد والمجلدات…</string>
+    <string name="binder_chapters_count">%d محاور</string>
+    <string name="binder_documents_count">%d وثائق</string>
+    <string name="binder_add_subject">إضافة مادة</string>
+    <string name="binder_add_folder">مجلد جديد</string>
+    <string name="binder_view_grid">شبكة</string>
+    <string name="binder_view_list">قائمة</string>
+    <string name="binder_sort_name">الاسم (أ - ي)</string>
+    <string name="binder_sort_updated">آخر تحديث</string>
+    <string name="binder_sort_count">عدد الوثائق</string>
+    <string name="binder_delete_subject_title">حذف المادة ؟</string>
+    <string name="binder_delete_subject_msg">هل تريد حذف هذه المادة وجميع محاورها ووثائقها المحفوظة ؟</string>
+    <string name="binder_delete_cascade">حذف المحتوى نهائيًا</string>
+    
+    <!-- Subject & Chapter Details -->
+    <string name="subject_chapters">المحاور والدروس</string>
+    <string name="subject_loose_docs">وثائق المادة المباشرة</string>
+    <string name="chapter_add">إضافة محور</string>
+    <string name="chapter_status">حالة المراجعة</string>
+    <string name="chapter_status_not_started">لم تبدأ بعد</string>
+    <string name="chapter_status_in_progress">قيد المراجعة</string>
+    <string name="chapter_status_completed">مكتمل ومتقن</string>
+    <string name="chapter_empty">لا توجد وثائق في هذا المحور</string>
+    <string name="chapter_empty_action">أضف ملخصًا، سلسلة تمارين أو موضوع امتحان</string>
+    
+    <!-- Forms -->
+    <string name="form_subject_name">اسم المادة</string>
+    <string name="form_subject_desc">الوصف (اختياري)</string>
+    <string name="form_subject_icon">اختيار الأيقونة</string>
+    <string name="form_subject_color">اللون</string>
+    <string name="form_subject_pin">تثبيت في الأعلى</string>
+    <string name="form_chapter_name">اسم المحور</string>
+    <string name="form_chapter_desc">الأهداف / الوصف</string>
+    <string name="form_chapter_parent_subject">المادة التابعة لها</string>
+    <string name="form_error_empty_name">لا يمكن ترك الاسم فارغًا</string>
+    <string name="form_error_duplicate_subject">توجد مادة مسجلة بهذا الاسم مسبقًا</string>
+    
+    <!-- Import & Scanner -->
+    <string name="import_title">استيراد وثائق</string>
+    <string name="import_pdf_title">ملف PDF</string>
+    <string name="import_pdf_subtitle">دروس، ملخصات، سلاسل تمارين، فروض وامتحانات</string>
+    <string name="import_image_title">صورة / بطاقة ملخصة</string>
+    <string name="import_image_subtitle">رسوم بيانية، ملخصات خطية، قواعد وصيغ</string>
+    <string name="import_camera_title">التقاط صورة بالكاميرا</string>
+    <string name="import_camera_subtitle">تصوير ورقة الدرس أو التلخيص مباشرة</string>
+    <string name="import_dest_subject">المادة المستهدفة</string>
+    <string name="import_dest_chapter">المحور (اختياري)</string>
+    <string name="import_file_name">عنوان الوثيقة</string>
+    <string name="import_progress">جاري الاستيراد والنسخ…</string>
+    <string name="import_success">تم حفظ الوثيقة بنجاح</string>
+    <string name="import_error_file">تعذر قراءة الملف المختار</string>
+    
+    <!-- Viewer -->
+    <string name="viewer_page_indicator">الصفحة %1$d من %2$d</string>
+    <string name="viewer_zoom_in">تكبير</string>
+    <string name="viewer_zoom_out">تصغير</string>
+    <string name="viewer_fit_width">ملاءمة العرض</string>
+    <string name="viewer_rotate">تدوير</string>
+    <string name="viewer_fullscreen">ملء الشاشة</string>
+    <string name="viewer_error_render">تعذر فتح وعرض الوثيقة</string>
+    
+    <!-- Revision Status -->
+    <string name="status_todo">للمراجعة</string>
+    <string name="status_in_progress">قيد المراجعة</string>
+    <string name="status_mastered">متقن</string>
+    
+    <!-- Favorites & Search -->
+    <string name="favorites_title">المفضلة</string>
+    <string name="favorites_empty">لا توجد وثائق مفضلة بعد</string>
+    <string name="favorites_empty_hint">المس رمز النجمة على أي وثيقة لإضافتها هنا والوصول إليها بسرعة.</string>
+    <string name="search_title">البحث الشامل</string>
+    <string name="search_placeholder">ابحث بالعنوان، المادة أو المحور…</string>
+    <string name="search_no_results">لم يتم العثور على نتائج لـ « %s »</string>
+    <string name="search_filter_all">الكل</string>
+    <string name="search_filter_pdf">PDF</string>
+    <string name="search_filter_image">صور</string>
+    
+    <!-- Revision screen -->
+    <string name="progress_title">متابعة المراجعة</string>
+    <string name="progress_mastery_rate">نسبة الإتقان</string>
+    <string name="progress_reset_btn">إعادة تعيين حالات المراجعة</string>
+    <string name="progress_reset_confirm">هل تريد إعادة ضبط جميع الوثائق لتصبح في حالة « للمراجعة » ؟ (لن يتم حذف أي ملف)</string>
+    
+    <!-- Settings & Backup -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_section_general">عام</string>
+    <string name="settings_language">لغة التطبيق</string>
+    <string name="settings_lang_fr">Français (الفرنسية)</string>
+    <string name="settings_lang_ar">العربية</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_theme_system">تلقائي (حسب النظام)</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن (أزرق ليلي)</string>
+    <string name="settings_storage">المساحة التخزينية المستخدمة</string>
+    <string name="settings_section_backup">النسخ الاحتياطي والاستعادة</string>
+    <string name="settings_backup_export">تصدير نسخة احتياطية كاملة</string>
+    <string name="settings_backup_export_desc">إنشاء ملف مضغوط ZIP يحتوي على جميع الوثائق والبيانات</string>
+    <string name="settings_backup_restore">استعادة نسخة احتياطية</string>
+    <string name="settings_backup_restore_desc">استرجاع الوثائق من أرشيف نسخ احتياطي سابق</string>
+    <string name="settings_about_title">حول كناش البكالوريا</string>
+    <string name="settings_about_desc">صُمم خصيصًا لتلاميذ امتحان البكالوريا في تونس. يعمل بدون إنترنت وخصوصيتك محفوظة بالكامل على جهازك.</string>
+    <string name="settings_version">الإصدار 1.0.0 (باك تونس)</string>
+    <string name="settings_reset_prefs">إعادة ضبط الإعدادات</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">مرحبًا بك في كناش البكالوريا</string>
+    <string name="onboarding_desc_1">كناشك المدرسي الرقمي المخصص لمراجعة البكالوريا التونسية. احتفظ بكل دروسك وملخصاتك وفروضك في مكان واحد.</string>
+    <string name="onboarding_title_2">تنظيم منهجي واضح</string>
+    <string name="onboarding_desc_2">رتّب وثائقك حسب المواد والمحاور: الرياضيات، العلوم الفيزيائية، علوم الحياة والأرض، الفلسفة وغيرها.</string>
+    <string name="onboarding_title_3">عارض وثائق ومتابعة المراجعة</string>
+    <string name="onboarding_desc_3">افتح ملفات PDF والصور التلخيصية دون الحاجة إلى الإنترنت. تابع تقدّمك: للمراجعة، قيد المراجعة، متقن !</string>
+    <string name="onboarding_title_4">محلي 100% ونسخ احتياطي آمن</string>
+    <string name="onboarding_desc_4">لا حاجة لحسابات أو خوادم. ملفاتك مخزنة على هاتفك مع إمكانية تصدير واسترجاع نسخة ZIP كاملة في أي وقت.</string>
+    <string name="onboarding_choose_lang">اختيار لغة التطبيق / Choisir la langue</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "Mon Classeur Bac",
+  "description": "Classeur scolaire numérique et organisateur de révision pour le Baccalauréat tunisien (Documents, PDF, Fiches de cours, Arabe & Français).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
